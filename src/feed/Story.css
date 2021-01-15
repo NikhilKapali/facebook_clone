@@ -1,7 +1,7 @@
 .story {
   display: flex;
   position: relative;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 120px;

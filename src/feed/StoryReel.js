@@ -10,29 +10,29 @@ function StoryReel() {
                 title="Nezuko chwannn"
             />
             <Story
-                image="./nezuko.png"
+                image="./02.png"
                 profileSrc="./Facebook-logo.png"
-                title="Nezuko chwannn"
+                title="Zero Two"
             />
             <Story
-                image="./nezuko.png"
+                image="./ab.jpg"
                 profileSrc="./Facebook-logo.png"
-                title="Nezuko chwannn"
+                title="Shrwaneeeee"
             />
             <Story
-                image="./nezuko.png"
+                image="./kaka.jpg"
                 profileSrc="./Facebook-logo.png"
-                title="Nezuko chwannn"
+                title="Kakashi Sensei"
             />
             <Story
-                image="./nezuko.png"
+                image="./teaser.png"
                 profileSrc="./Facebook-logo.png"
-                title="Nezuko chwannn"
+                title="Takagi San"
             />
             <Story
-                image="./nezuko.png"
+                image="./zabu.jpg"
                 profileSrc="./Facebook-logo.png"
-                title="Nezuko chwannn"
+                title="Haku"
             />
         </div>
     )
