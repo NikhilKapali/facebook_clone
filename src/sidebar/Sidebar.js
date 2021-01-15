@@ -8,10 +8,15 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@material-ui/icons/ExpandMoreOutlined';
+import { useStateValue } from "../login/StateProvider"
+
+
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
+
     return (
         <div className="sidebar"> 
-            <SidebarRow src='./nezuko.png' title='Yokai'/>
+            <SidebarRow src={user.photoURL} title={user.displayName}/>
             <SidebarRow Icon={LocalHospitalIcon}
             title="COVID-19 Info Center Bitch" />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />

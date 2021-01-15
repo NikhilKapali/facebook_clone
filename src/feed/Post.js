@@ -14,7 +14,7 @@ function Post({profilePic, image, username,timestamp, message}) {
                 <Avatar src={profilePic} className="post__avatar" />
                 <div className="post__topInfo">
                     <h3>{username}</h3>
-                    <p>Timestamp..</p>
+                    <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
                 </div>
                 
             </div>
@@ -22,7 +22,7 @@ function Post({profilePic, image, username,timestamp, message}) {
                 <p>{message}</p>
             </div>
             <div className="post__image">
-                <img src={image} alt="gg" />
+                <img src={image}/>
 
             </div>
             <div className="post__options">

@@ -1,4 +1,5 @@
 .story {
+  display: flex;
   position: relative;
   background-position: center center;
   background-size: cover;

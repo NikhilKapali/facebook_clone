@@ -77,3 +77,9 @@
 .header__right {
   display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__center {
+    display: none !important;
+  }
+}

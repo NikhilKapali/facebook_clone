@@ -1,3 +1,5 @@
 .storyReel {
   display: flex;
+  flex: 1;
+  justify-content: space-evenly;
 }
